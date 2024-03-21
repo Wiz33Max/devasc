@@ -10,6 +10,5 @@ class Circle:
 circle1 = Circle (10)
 
 print (circle1.circumference())
-
 #OOP supports DRY and KISS programming principles
 
