@@ -8,3 +8,5 @@ ongoing - download cbt nugget DEVASC COURSE!!!
 - video CBT Nuggets. Video Number: 50
 - lab on https://cisco.devnet.com website
 - Do postman learning course and labs https://learning.postman.com/
+follow the CISCO LEARNING CENTER course on Python (PCAP)
+ - pass the PCAP certificate
