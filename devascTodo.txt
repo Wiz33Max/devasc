@@ -1,9 +1,10 @@
 done - watch the videos from devnet start now and make notes
 ongoing - download cbt nugget DEVASC COURSE!!!
 - do the lab on manage NSO using RESTCONF
-- proceed with the book Chapter : 
+- proceed with the book Chapter : 3, page 198
 - design pattern book
 - do the tuto MVC lab it up
-- git log nanual bookmark
-- video CBT Nuggets. Video Number: 
+- git log manual bookmark
+- video CBT Nuggets. Video Number: 50
+- lab on https://cisco.devnet.com website
 - Do postman learning course and labs https://learning.postman.com/
