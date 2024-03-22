@@ -1,7 +1,7 @@
 done - watch the videos from devnet start now and make notes
 ongoing - download cbt nugget DEVASC COURSE!!!
 - do the lab on manage NSO using RESTCONF
-- proceed with the book Chapter : 3, page 198
+- proceed with the book Chapter : 4 (passed self assignement), page 255
 - design pattern book
 - do the tuto MVC lab it up
 - git log manual bookmark

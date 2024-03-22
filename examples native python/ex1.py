@@ -14,3 +14,4 @@ revivePlayer(p)
 p = 0
 revivePlayer(p)
 # added stuff
+print ('hello!!!!!!!!!')
