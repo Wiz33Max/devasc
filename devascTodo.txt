@@ -10,3 +10,7 @@ ongoing - download cbt nugget DEVASC COURSE!!!
 - Do postman learning course and labs https://learning.postman.com/
 follow the CISCO LEARNING CENTER course on Python (PCAP)
  - pass the PCAP certificate
+  - restfull api tutos
+  - postman tuto
+
+  -Fortigate NSE4
