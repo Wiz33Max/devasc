@@ -12,5 +12,7 @@ follow the CISCO LEARNING CENTER course on Python (PCAP)
  - pass the PCAP certificate
   - restfull api tutos
   - postman tuto
+ - postman prerequest and test scripts tutorial from postman
+ - CCNA DEVNET exam Prep on cisco learning, watch and ro the 15H video after you do the CBT nigget ones
 
   -Fortigate NSE4
