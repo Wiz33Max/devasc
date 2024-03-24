@@ -5,3 +5,4 @@ YANG CATALOG - download YAND models from devices, generate code there and rume e
 --? replaced by YANG SUITE !!!
 For NX-OS, the NX-API Developer Sandbox is the cheese way to develop API clls in the nsos
 Cobra SDK - sdk for APIC ACI - wasnt working, but the ACI Toolkit works
+API inspector, usefull in ACIC API
