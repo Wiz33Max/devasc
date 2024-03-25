@@ -1,7 +1,19 @@
 import sys
+import os
+currentDir = sys.path[0]
 
-current_dir = sys.path[0]
-filePath = (current_dir+"\\sample.txt")
+files = os.listdir(currentDir)
 
-with open(filePath, "r") as f:
-    print(f.read())
+for file in files:
+    print(file)
+    if file.endswith(".txt"):
+        with open(file, "r") as f:
+            print(f.read())
+print (currentDir)
+
+try:
+    with open("sample.txt", "r") as f:
+        print(f.read())
+
+except Exception as e:
+    print("Error:", e)
