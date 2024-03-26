@@ -17,8 +17,8 @@ def read_csv(filename: str) -> list:
         ValueError: If the file is not a CSV file.
     """
     with open(filename, "r") as file:
-        reader = csv.DictReader(file)
-        data = [dict(row) for row in reader]
+        reader = csv.DictReader(file) # alternatively can use cvs.reader(fi)
+        data = [dict(row) for row in reader] # alternatively => data = list (reader)
     return data
 
 
