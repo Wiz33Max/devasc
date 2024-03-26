@@ -1,7 +1,7 @@
 items = []
 
 try:
-    with open(C:/py_files/sample.txt, "r") as f:
+    with open("C:/py_files/sample.txt", "r") as f:
         items.append(f.read())
 except Exception as e:
     print("Error:", e)
