@@ -9,3 +9,6 @@ API inspector, usefull in ACIC API
 - ngrok
 (http://ngrok.com) is a free tool that allows you to tunnel from
 a public URL to your application running locally.
+Simple JSON Server (an open-source server that you can
+clone and run in your environment for playing with and
+learning about RESTful APIs)
