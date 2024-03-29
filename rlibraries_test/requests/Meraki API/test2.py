@@ -34,7 +34,6 @@ deviceSerial = device_item['serial']
 
 print (deviceSerial)
 
-#clients = dashboard.networks.getNetworkClients(netid)
-#clients = dashboard.networks.getNetworkClientsOverview(netid)
-#pprint (clients)
+clients = dashboard.devices.getDeviceClients(deviceSerial, timespan = 2678400)
 
+pprint (clients)
