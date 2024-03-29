@@ -28,3 +28,5 @@ pprint ( dashboard.networks.getNetworkDevices (net_id) )
 
 #clients = dashboard.networks.getNetworkClients(net_id, timespan=60 * 60 * 24 * 14, perPage=1000,total_pages='all')
 #print (clients)
+
+#curl https://api.meraki.com/api/v1/organizations -L -H "Bearer: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0"
