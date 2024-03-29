@@ -13,4 +13,9 @@ for org_item in org:
 print (org_item['name'])
 orgid = org_item['id']
 
-networks = dashboard.organizations.getOrganizationNetworks()
+networks = dashboard.organizations.getOrganizationNetworks(orgid)
+
+for network_item in networks:
+    break
+netid = network_item['id']
+print ("The network name is" + network_item['name'] + " and it's ID is "+ network_item['netid'])
