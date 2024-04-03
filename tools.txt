@@ -13,3 +13,4 @@ Simple JSON Server (an open-source server that you can
 clone and run in your environment for playing with and
 learning about RESTful APIs)
 - https://developer.cisco.com/meraki/api-v1/get-network-clients/
+IPAM IPAM systems such as Infoblox and BlueCat

@@ -1,0 +1,19 @@
+import requests
+import json
+from pprint import pprint
+url = "https://sandboxdnac2.cisco.com/dna/intent/api/v1/network-device"
+
+payload = {}
+headers = {
+  'X-Auth-Token': 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjQxOTIzZTU3MjU5NTA2YTU2YjRhYTEiLCJhdXRoU291cmNlIjoiaW50ZXJuYWwiLCJ0ZW5hbnROYW1lIjoiVE5UMCIsInJvbGVzIjpbIjYyM2YwMjlhNTcyNTk1MDZhNTZhZDljNCJdLCJ0ZW5hbnRJZCI6IjYyM2YwMjk4NTcyNTk1MDZhNTZhZDliZCIsImV4cCI6MTcxMjAwMjUyMiwiaWF0IjoxNzExOTk4OTIyLCJqdGkiOiI0MjIwZjFhMS1hNTg2LTRjNmEtOWFjYy01MTc0N2Q4NjE2YmMiLCJ1c2VybmFtZSI6ImRldm5ldHVzZXIifQ.QfXa2__eJlNokD0_vHTWfC99emqFCDztgMuBFQiz1IcMS5XFogDJDP0c-Ac_EDkM7m5_a7uAsl_7oD90oTklQ6qSBztRMeHFX0j2vAeBRaolXXTDYUIPSJiUP4hZIrqugLhIn7oLMZ4YW10_pTj5Om_sZjqgA9R9EOWPw5vx980iDkrRp7ijnqdV7eySL0Y2VPYjjD9Wo0uzn3MsKHzk_HypAojG31kwPVUUaDRauyHbyoK8gcFmPA318sdMdW8eZttj76LICS5HqguQ7jbj2QbWHVTEQhLDl_jGgFansUX_vSDsjxMUM9vEcXASoZo2GSnEDE63wivgyIaLBv_8gw'
+}
+
+response = requests.request("GET", url, headers=headers, data=payload, verify=False)
+
+data_dict = json.loads(response.text)
+
+pprint(data_dict)
+
+cli = json.dump(response.text)
+
+type (cli)

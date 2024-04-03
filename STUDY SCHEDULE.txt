@@ -1,0 +1,19 @@
+--- now
+Theory of DEVASC
+Lab 1 DEVASC
+Python cources from cisco learning networks
+
+
+--- after devacs exam:
+Theory on FORTINET
+Lab one FORTINET
+python cources from cbt nuggets the other part
+
+--- after NSE4 exam:
+Theory on ENAUTO
+Lab 1 ENAUTO
+Lab 1 NETWORKING from network lessons
+
+--- after ENAUTO exam:
+Theory on ENCORE
+lab NETWORKING

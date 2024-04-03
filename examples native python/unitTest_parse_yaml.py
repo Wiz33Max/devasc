@@ -5,3 +5,5 @@ class TestParseYaml(unittest.TestCase):
     def test_parse_yaml(self):
         self.assertIsInstance(parse_yaml("C:/py_files/interface.yaml"), dict)
         self.assertEqual(parse_yaml("C:/py_files/interface.yaml")["interface"]["name"], "GigabitEthernet1")
+
+#usage: cmd: python -m unittest test_parse_yaml.py
