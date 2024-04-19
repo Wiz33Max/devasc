@@ -21,6 +21,7 @@ SESS = requests.session()
 LOGIN_RESPONSE = SESS.post(url=LOGIN_URL,data=LOGIN_DATA, verify=False)
 
 # Get list of devices that are part of the fabric and display them
+
 DEVICE_RESOURCE = 'dataservice/device'
 
 # URL for device API resource
@@ -32,6 +33,7 @@ for ITEM in DEVICE_ITEMS:
     pprint (ITEM)
 
 # Get list of device templates and display them
+
 TEMPLATE_RESOURCE = 'dataservice/template/device'
 
 # URL for device template API resource
