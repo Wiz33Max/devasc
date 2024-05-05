@@ -16,3 +16,7 @@ learning about RESTful APIs)
 IPAM IPAM systems such as Infoblox and BlueCat
 
 - python library tabulate makes output like cusco output
+
+kanban boards to visualize work, - an application like Jira
+
+auto kubernetes mgmt - Try CastAI out for FREE - https://cast.ai/travis
