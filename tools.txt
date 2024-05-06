@@ -1,4 +1,4 @@
-USEFULL TOOLS:
+USEFUL TOOLS:
 - rest client [is vscode extention to test inline the rest api]
 - postman [api tool, robust]
 - live server extention to launch quick live http server
