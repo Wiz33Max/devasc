@@ -23,5 +23,3 @@ kanban boards to visualize work, - an application like Jira
 auto kubernetes mgmt - Try CastAI out for FREE - https://cast.ai/travis
 <<<<<<< HEAD
 there is a total DEVOPS course link in my Google drive
-=======
->>>>>>> 223b575d91b7e242ba31fac323645622012db741
