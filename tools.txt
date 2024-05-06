@@ -20,3 +20,4 @@ IPAM IPAM systems such as Infoblox and BlueCat
 kanban boards to visualize work, - an application like Jira
 
 auto kubernetes mgmt - Try CastAI out for FREE - https://cast.ai/travis
+there is a total DEVOPS course link in my Google drive
