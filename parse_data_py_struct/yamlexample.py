@@ -1,16 +1,8 @@
 import yaml
 from yaml import load, load_all
 
-stream = open('sample.yaml','r')
-documents = load_all(stream, Loader=yaml.FullLoader)
+f = open('parse_data_py_struct\\sample.yaml','r')
+documents = load(f, Loader=yaml.FullLoader)
+print (documents['people'])
+print(documents['people'][2]['LastName'])
 
-print(type(documents))
-
-for doc in documents:
-    print(type(doc))
-
-    print(doc['people'][1]['LastName'])
-
-
-
-    

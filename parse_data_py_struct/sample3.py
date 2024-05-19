@@ -1,11 +1,14 @@
 import xmltodict
+from pprint import pprint
 
 #Get the XML file data
-stream = open('sample.xml','r')
-
+f = open('parse_data_py_struct\\sample.xml','r')
 #Prase the XML file into an 'OrderedDict'
-xml = xmltodict.parse(stream.read())
-
+print ("\nUsable dictionary object:\n")
+xml = xmltodict.parse(f.read())
+pprint (xml)
 for e in xml["People"]["Person"]:
-    print(e)
-
+    print(f"ID - {e['@Id']}\nName - {e['FirstName']} {e['LastName']}\nEmail - {e['Email']}")
+    # print(e['@Id'])
+    print (f"")
+    print (e.pop('@Id'))
